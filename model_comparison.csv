@@ -1,0 +1,4 @@
+Model,What it uses,Strength,Weakness
+Text Similarity,"Title, abstract and topics",Finds papers with similar words and topics,Can miss citation context
+Graph Similarity,Shared references between papers,Finds papers connected through citations,Can miss meaning if citations are sparse
+Hybrid Similarity,Text similarity + graph similarity,Gives more balanced recommendations,Needs more computation
